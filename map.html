@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_8c4efc4037834cbca7f1f07905f05149 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_8c4efc4037834cbca7f1f07905f05149" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_8c4efc4037834cbca7f1f07905f05149 = L.map(
+                                  'map_8c4efc4037834cbca7f1f07905f05149',
+                                  {center: [35.316,139.78],
+                                  zoom: 10,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_0b87bf3117214ab4bcb0c05ba16e5973 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_8c4efc4037834cbca7f1f07905f05149);
+        
+    
+
+            var marker_ac20e1bd956140ab84a0eefc6ace1730 = L.marker(
+                [35.64519833333333,139.75915166666667],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_8c4efc4037834cbca7f1f07905f05149);
+            
+    
+            var popup_a94b957fde5c40b7bd6e8eb81c86875a = L.popup({maxWidth: '300'});
+
+            
+                var html_860cab3ce0a7444fadbd9ac3815c5d5d = $('<div id="html_860cab3ce0a7444fadbd9ac3815c5d5d" style="width: 100.0%; height: 100.0%;">MMSI : 431000377<br />Lat, Lon : 35.64519833333333, 139.75915166666667<br />NAV Status : Under way using engine<br />SOG, COG : 0.10000000149011612, 206.5<br />HDG : 180<br />Timestamp : 2018-05-11T05:54:03Z</div>')[0];
+                popup_a94b957fde5c40b7bd6e8eb81c86875a.setContent(html_860cab3ce0a7444fadbd9ac3815c5d5d);
+            
+
+            marker_ac20e1bd956140ab84a0eefc6ace1730.bindPopup(popup_a94b957fde5c40b7bd6e8eb81c86875a);
+
+            
+        
+    
+
+            var marker_2cf27a23cde84f7595a8c7a3bf744f7b = L.marker(
+                [35.638461666666664,139.760465],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_8c4efc4037834cbca7f1f07905f05149);
+            
+    
+            var popup_a6d5f792995649eda1181b9534f14c07 = L.popup({maxWidth: '300'});
+
+            
+                var html_b39c1171c8a047ff9d7932dd4612b1e8 = $('<div id="html_b39c1171c8a047ff9d7932dd4612b1e8" style="width: 100.0%; height: 100.0%;">MMSI : 431501619<br />Lat, Lon : 35.638461666666664, 139.760465<br />NAV Status : Under way using engine<br />SOG, COG : 0.0, 209.10000610351562<br />HDG : 359<br />Timestamp : 2018-05-11T05:54:03Z</div>')[0];
+                popup_a6d5f792995649eda1181b9534f14c07.setContent(html_b39c1171c8a047ff9d7932dd4612b1e8);
+            
+
+            marker_2cf27a23cde84f7595a8c7a3bf744f7b.bindPopup(popup_a6d5f792995649eda1181b9534f14c07);
+
+            
+        
+    
+
+            var marker_5cb549e506ab45e3a8d6e9810c9fada0 = L.marker(
+                [35.62157,139.82701166666666],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_8c4efc4037834cbca7f1f07905f05149);
+            
+    
+            var popup_a2e9d31c5f8541b9b60c2f09eeb24b35 = L.popup({maxWidth: '300'});
+
+            
+                var html_8b383a0ebced43988a83544f8560309c = $('<div id="html_8b383a0ebced43988a83544f8560309c" style="width: 100.0%; height: 100.0%;">MMSI : 431400651<br />Lat, Lon : 35.62157, 139.82701166666666<br />NAV Status : Moored<br />SOG, COG : 0.0, 233.1999969482422<br />HDG : 174<br />Timestamp : 2018-05-11T05:54:03Z</div>')[0];
+                popup_a2e9d31c5f8541b9b60c2f09eeb24b35.setContent(html_8b383a0ebced43988a83544f8560309c);
+            
+
+            marker_5cb549e506ab45e3a8d6e9810c9fada0.bindPopup(popup_a2e9d31c5f8541b9b60c2f09eeb24b35);
+
+            
+        
+</script>
